@@ -1,0 +1,20 @@
+
+{
+    "title": "개인 포트폴리오 계획서",
+    "slug": "personal-branding-plan",
+    "description": "프리랜서, 구직자를 위한 체계적인 퍼스널 브랜딩 전략 계획서입니다.",
+    "image": "https://picsum.photos/seed/portfolio/600/400",
+    "tags": ["포트폴리오", "브랜딩", "개인"],
+    "href": "/templates/personal-branding-plan",
+    "aiHint": "personal portfolio",
+    "sections": [
+      { "id": "vision_mission", "title": "나의 비전과 미션", "content": "" },
+      { "id": "swot_analysis", "title": "SWOT 분석 (강점, 약점, 기회, 위협)", "content": "" },
+      { "id": "target_audience", "title": "타겟 오디언스 (고객, 기업) 정의", "content": "" },
+      { "id": "unique_value", "title": "차별화된 가치 제안 (UVP)", "content": "" },
+      { "id": "online_presence", "title": "온라인 포트폴리오 및 SNS 운영 계획", "content": "" },
+      { "id": "contents_strategy", "title": "전문성을 보여줄 콘텐츠 전략", "content": "" },
+      { "id": "networking", "title": "네트워킹 및 협업 계획", "content": "" },
+      { "id": "action_plan", "title": "3개월 단기 실행 계획 및 목표", "content": "" }
+    ]
+}

@@ -1,0 +1,19 @@
+
+{
+    "title": "부동산 투자/개발 사업 계획서",
+    "slug": "real-estate-business-plan",
+    "description": "부동산 매입, 개발, 임대, 재판매 등 프로젝트성 사업을 위한 계획서입니다.",
+    "image": "https://picsum.photos/seed/real-estate/600/400",
+    "tags": ["부동산", "개발", "투자"],
+    "href": "/templates/real-estate-business-plan",
+    "aiHint": "real estate development",
+    "sections": [
+        { "id": "project_overview", "title": "프로젝트 개요", "content": "" },
+        { "id": "location_analysis", "title": "시장 및 입지 분석", "content": "" },
+        { "id": "development_plan", "title": "개발 또는 리모델링 계획", "content": "" },
+        { "id": "funding_plan", "title": "자금 조달 계획 (PF)", "content": "" },
+        { "id": "profitability_analysis", "title": "수익성 분석", "content": "" },
+        { "id": "exit_strategy", "title": "출구(EXIT) 전략", "content": "" },
+        { "id": "risk_management", "title": "리스크 관리 방안", "content": "" }
+    ]
+}

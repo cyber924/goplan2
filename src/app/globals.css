@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    
+    --gov-navy: 218 73% 16%; /* #0b2447 */
+    --gov-blue: 220 89% 43%; /* #0b50d0 */
+    --gov-blue-bright: 220 100% 54%; /* #1463ff */
+    --gov-blue-soft: 218 100% 96%; /* #e8f0ff */
+    --gov-cyan: 188 100% 42%; /* #00b8d9 */
+    
+    --primary: 220 89% 43%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 218 40% 96%;
+    --secondary-foreground: 218 73% 16%;
+    
+    --muted: 218 20% 94%;
+    --muted-foreground: 218 20% 45%;
+    
+    --accent: 188 100% 42%;
+    --accent-foreground: 222 47% 11%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 218 30% 92%;
+    --input: 218 30% 92%;
+    --ring: 220 100% 54%;
+    
+    --radius: 1.125rem; /* 18px */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fill-animation {
+  from { width: 30%; }
+  to { width: 88%; }
+}
+
+.hp-fill {
+  animation: fill-animation 2.6s ease infinite alternate;
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-9px); }
+}
+
+.animate-bob {
+  animation: bob 4s ease-in-out infinite;
+}
+
+@media print {
+  .print\:hidden { display: none !important; }
+  .print\:block { display: block !important; }
+}

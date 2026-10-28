@@ -1,0 +1,6 @@
+{
+  "name": "GOplanAI",
+  "description": "AI 기반의 스마트한 사업 계획서 작성 및 분석 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

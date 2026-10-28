@@ -1,0 +1,20 @@
+
+{
+    "title": "신사업 기획서",
+    "slug": "new-business-plan",
+    "description": "기업 내 신규 프로젝트를 위한 체계적인 기획서입니다.",
+    "image": "https://picsum.photos/seed/proposal/600/400",
+    "tags": ["제조", "서비스", "내부용"],
+    "href": "/templates/new-business-plan",
+    "aiHint": "business proposal",
+    "sections": [
+      { "id": "background", "title": "제안 배경 및 목적", "content": "" },
+      { "id": "market_analysis", "title": "시장 환경 분석", "content": "" },
+      { "id": "business_concept", "title": "사업 컨셉 및 내용", "content": "" },
+      { "id": "target_customer", "title": "목표 고객 및 시장 규모", "content": "" },
+      { "id": "marketing_strategy", "title": "마케팅 및 영업 전략", "content": "" },
+      { "id": "action_plan", "title": "실행 계획 및 일정", "content": "" },
+      { "id": "financial_plan", "title": "예상 손익 및 투자 계획", "content": "" },
+      { "id": "expected_impact", "title": "기대 효과 및 리스크 관리", "content": "" }
+    ]
+}

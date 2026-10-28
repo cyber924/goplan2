@@ -1,0 +1,21 @@
+
+{
+    "title": "F&B 프랜차이즈 사업 계획서",
+    "slug": "franchise-business-plan",
+    "description": "요식업(F&B) 분야에서 가맹 사업을 시작하려는 창업자를 위한 템플릿입니다.",
+    "image": "https://picsum.photos/seed/franchise/600/400",
+    "tags": ["F&B", "프랜차이즈", "가맹사업"],
+    "href": "/templates/franchise-business-plan",
+    "aiHint": "franchise restaurant",
+    "sections": [
+      { "id": "brand_identity", "title": "브랜드 소개 및 컨셉", "content": "" },
+      { "id": "hq_system", "title": "본점 운영 노하우 및 시스템", "content": "" },
+      { "id": "franchisee_requirements", "title": "가맹점 개설 조건 및 절차", "content": "" },
+      { "id": "menu_rnd", "title": "메뉴 경쟁력 및 R&D 계획", "content": "" },
+      { "id": "scm", "title": "물류 및 공급망 관리 (SCM)", "content": "" },
+      { "id": "franchisee_support", "title": "가맹점 교육 및 지원 시스템", "content": "" },
+      { "id": "brand_marketing", "title": "브랜드 마케팅 및 광고 전략", "content": "" },
+      { "id": "franchisee_profit_model", "title": "가맹점 예상 수익 모델 분석", "content": "" },
+      { "id": "expansion_plan", "title": "중장기 사업 확장 계획", "content": "" }
+    ]
+}

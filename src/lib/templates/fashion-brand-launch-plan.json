@@ -1,0 +1,19 @@
+
+{
+    "title": "패션 브랜드 런칭 계획서",
+    "slug": "fashion-brand-launch-plan",
+    "description": "의류, 액세서리 등 자신만의 패션 브랜드를 런칭하려는 창업가를 위한 템플릿입니다.",
+    "image": "https://picsum.photos/seed/fashion-brand/600/400",
+    "tags": ["패션", "브랜드", "디자인"],
+    "href": "/templates/fashion-brand-launch-plan",
+    "aiHint": "fashion brand design",
+    "sections": [
+      { "id": "brand_concept", "title": "브랜드 컨셉 및 아이덴티티", "content": "" },
+      { "id": "season_concept", "title": "시즌 컨셉 및 디자인", "content": "" },
+      { "id": "scm", "title": "생산 및 공급망 관리(SCM)", "content": "" },
+      { "id": "lookbook_content", "title": "룩북 및 콘텐츠 전략", "content": "" },
+      { "id": "sales_strategy", "title": "유통 및 판매 전략", "content": "" },
+      { "id": "marketing", "title": "브랜드 마케팅 및 홍보", "content": "" },
+      { "id": "financials", "title": "재무 계획 및 예산", "content": "" }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "스타트업 투자 제안서",
+    "slug": "startup-investment-proposal",
+    "description": "투자 유치를 위한 필수 요소들을 담은 템플릿입니다.",
+    "image": "https://picsum.photos/seed/startup/600/400",
+    "tags": ["IT", "플랫폼", "투자용"],
+    "href": "/templates/startup-investment-proposal",
+    "aiHint": "startup pitch",
+    "defaultIdea": "AI 기반 개인화 학습 경로 추천 SaaS 플랫폼. 학생들의 학습 효율을 20% 향상시키는 것을 목표로 합니다.",
+    "sections": [
+      { "id": "introduction", "title": "회사 소개", "content": "", "placeholder": "회사의 비전, 설립 배경 및 핵심 가치를 설명하세요." },
+      { "id": "problem", "title": "문제 정의", "content": "", "placeholder": "현재 시장에서 고객이 겪고 있는 페인 포인트(Pain Point)를 서술하세요." },
+      { "id": "solution", "title": "솔루션", "content": "", "placeholder": "정의된 문제를 어떻게 해결하는지, 우리 제품/서비스의 핵심 기능을 설명하세요." },
+      { "id": "market", "title": "시장 분석", "content": "", "placeholder": "목표 시장의 규모(TAM/SAM/SOM) 및 성장 가능성을 작성하세요." },
+      { "id": "business_model", "title": "비즈니스 모델", "content": "", "placeholder": "수익 구조, 가격 정책 및 판매 전략을 설명하세요." },
+      { "id": "team", "title": "팀 소개", "content": "", "placeholder": "창업 팀의 전문성, 주요 경력 및 조직 구성을 소개하세요." },
+      { "id": "financial-plan", "title": "재무 계획", "content": "", "placeholder": "향후 3개년 매출 추정 및 비용 구조를 설명하세요." },
+      { "id": "investment", "title": "투자 제안", "content": "", "placeholder": "필요 투자 금액과 자금 활용 계획(Use of Funds)을 명시하세요." }
+    ]
+}

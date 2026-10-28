@@ -1,0 +1,179 @@
+
+[
+  {
+    "title": "스타트업 투자 제안서",
+    "slug": "startup-investment-proposal",
+    "description": "투자 유치를 위한 필수 요소들을 담은 템플릿입니다.",
+    "image": "https://picsum.photos/seed/startup/600/400",
+    "tags": ["IT", "플랫폼", "투자용"],
+    "href": "/templates/startup-investment-proposal",
+    "aiHint": "startup pitch",
+    "sections": [
+      { "id": "introduction", "title": "회사 소개", "content": "" },
+      { "id": "problem", "title": "문제 정의", "content": "" },
+      { "id": "solution", "title": "솔루션", "content": "" },
+      { "id": "market", "title": "시장 분석", "content": "" },
+      { "id": "business_model", "title": "비즈니스 모델", "content": "" },
+      { "id": "team", "title": "팀 소개", "content": "" },
+      { "id": "financials", "title": "재무 계획", "content": "" },
+      { "id": "investment", "title": "투자 제안", "content": "" }
+    ]
+  },
+  {
+    "title": "표준 R&D 사업계획서",
+    "slug": "standard-rd-proposal",
+    "description": "정부 과제 및 R&D 지원 사업을 위한 표준 목차 기반 계획서입니다.",
+    "image": "https://picsum.photos/seed/research/600/400",
+    "tags": ["R&D", "정부과제", "기술"],
+    "href": "/templates/standard-rd-proposal",
+    "aiHint": "research development",
+    "sections": [
+      { "id": "summary", "title": "요약서", "content": "" },
+      { "id": "overview", "title": "사업 개요", "content": "" },
+      { "id": "necessity", "title": "기술개발 필요성 및 배경", "content": "" },
+      { "id": "goals", "title": "기술개발 목표", "content": "" },
+      { "id": "strategy", "title": "기술개발 내용 및 추진 전략", "content": "" },
+      { "id": "organization", "title": "기술개발 추진 체계 및 인력", "content": "" },
+      { "id": "commercialization", "title": "사업화 계획", "content": "" },
+      { "id": "impact", "title": "기대성과 및 파급효과", "content": "" },
+      { "id": "schedule", "title": "추진 일정 및 세부 수행계획", "content": "" },
+      { "id": "budget", "title": "예산 내역", "content": "" },
+      { "id": "risk", "title": "성과관리 및 리스크 대응", "content": "" }
+    ]
+  },
+  {
+    "title": "신사업 기획서",
+    "slug": "new-business-plan",
+    "description": "기업 내 신규 프로젝트를 위한 체계적인 기획서입니다.",
+    "image": "https://picsum.photos/seed/proposal/600/400",
+    "tags": ["제조", "서비스", "내부용"],
+    "href": "/templates/new-business-plan",
+    "aiHint": "business proposal",
+    "sections": [
+      { "id": "background", "title": "제안 배경 및 목적", "content": "" },
+      { "id": "market_analysis", "title": "시장 환경 분석", "content": "" },
+      { "id": "business_concept", "title": "사업 컨셉 및 내용", "content": "" },
+      { "id": "target_customer", "title": "목표 고객 및 시장 규모", "content": "" },
+      { "id": "marketing_strategy", "title": "마케팅 및 영업 전략", "content": "" },
+      { "id": "action_plan", "title": "실행 계획 및 일정", "content": "" },
+      { "id": "financial_plan", "title": "예상 손익 및 투자 계획", "content": "" },
+      { "id": "expected_impact", "title": "기대 효과 및 리스크 관리", "content": "" }
+    ]
+  },
+  {
+    "title": "소상공인 창업 계획서",
+    "slug": "small-business-startup",
+    "description": "카페, 식당 등 소규모 창업에 최적화된 계획서입니다.",
+    "image": "https://picsum.photos/seed/cafe/600/400",
+    "tags": ["F&B", "리테일", "정부지원"],
+    "href": "/templates/small-business-startup",
+    "aiHint": "cafe food",
+    "sections": [
+        { "id": "motivation", "title": "창업 동기 및 사업 개요", "content": "" },
+        { "id": "product_service", "title": "아이템 및 서비스 소개", "content": "" },
+        { "id": "location_analysis", "title": "상권 및 입지 분석", "content": "" },
+        { "id": "customer_analysis", "title": "주요 고객층 분석", "content": "" },
+        { "id": "interior_plan", "title": "인테리어 및 시설 계획", "content": "" },
+        { "id": "marketing_promotion", "title": "마케팅 및 홍보 전략", "content": "" },
+        { "id": "funding_plan", "title": "자금 조달 계획", "content": "" },
+        { "id": "cost_bep", "title": "추정 소요자금 및 손익분기점", "content": "" }
+    ]
+  },
+  {
+    "title": "마케팅 전략 계획서",
+    "slug": "marketing-strategy-plan",
+    "description": "캠페인 목표, 타겟, 채널, 예산을 포함한 종합 마케팅 계획서입니다.",
+    "image": "https://picsum.photos/seed/marketing/600/400",
+    "tags": ["마케팅", "캠페인", "전략"],
+    "href": "/templates/marketing-strategy-plan",
+    "aiHint": "marketing strategy",
+    "sections": [
+        { "id": "summary", "title": "마케팅 계획 요약", "content": "" },
+        { "id": "goals", "title": "비즈니스 및 마케팅 목표", "content": "" },
+        { "id": "target_audience", "title": "타겟 고객 분석 (페르소나)", "content": "" },
+        { "id": "kpi", "title": "핵심 성과 지표 (KPI)", "content": "" },
+        { "id": "strategy", "title": "핵심 전략 및 메시지", "content": "" },
+        { "id": "channels", "title": "마케팅 채널 및 실행 계획", "content": "" },
+        { "id": "budget", "title": "마케팅 예산", "content": "" },
+        { "id": "schedule", "title": "추진 일정", "content": "" },
+        { "id": "risk_management", "title": "리스크 관리 방안", "content": "" }
+    ]
+  },
+  {
+    "title": "온라인 커머스 사업 계획서",
+    "slug": "ecommerce-business-plan",
+    "description": "온라인 쇼핑몰 창업과 운영에 필요한 모든 것을 담았습니다.",
+    "image": "https://picsum.photos/seed/ecommerce/600/400",
+    "tags": ["온라인", "쇼핑몰", "커머스"],
+    "href": "/templates/ecommerce-business-plan",
+    "aiHint": "online shopping",
+    "sections": [
+        { "id": "summary", "title": "사업 요약", "content": "" },
+        { "id": "product_service", "title": "판매 상품 및 서비스", "content": "" },
+        { "id": "market_competitor", "title": "시장 및 경쟁 분석", "content": "" },
+        { "id": "platform_tech", "title": "운영 플랫폼 및 기술", "content": "" },
+        { "id": "marketing_sales", "title": "마케팅 및 판매 전략", "content": "" },
+        { "id": "logistics", "title": "물류, 재고 및 배송 계획", "content": "" },
+        { "id": "organization", "title": "조직 및 인력 계획", "content": "" },
+        { "id": "financial_plan", "title": "재무 계획 및 자금 조달", "content": "" }
+    ]
+  },
+  {
+    "title": "SaaS 비즈니스 플랜",
+    "slug": "saas-business-plan",
+    "description": "구독 기반 서비스(SaaS)에 특화된 사업 계획서입니다.",
+    "image": "https://picsum.photos/seed/saas/600/400",
+    "tags": ["SaaS", "소프트웨어", "구독"],
+    "href": "/templates/saas-business-plan",
+    "aiHint": "saas dashboard",
+    "sections": [
+      { "id": "summary", "title": "사업 요약", "content": "" },
+      { "id": "problem_solution", "title": "문제 정의 및 해결 방안", "content": "" },
+      { "id": "product", "title": "제품 상세 설명", "content": "" },
+      { "id": "market_analysis", "title": "목표 시장 분석", "content": "" },
+      { "id": "pricing_model", "title": "가격 및 구독 모델", "content": "" },
+      { "id": "customer_acquisition", "title": "고객 확보 전략", "content": "" },
+      { "id": "roadmap", "title": "제품 로드맵", "content": "" },
+      { "id": "financial_projections", "title": "재무 예측 (MRR, ARR, Churn)", "content": "" }
+    ]
+  },
+  {
+    "title": "유튜브 채널 기획서",
+    "slug": "youtube-contents-plan",
+    "description": "1인 크리에이터와 콘텐츠 제작자를 위한 채널 성장 계획서입니다.",
+    "image": "https://picsum.photos/seed/youtube/600/400",
+    "tags": ["콘텐츠", "유튜브", "1인미디어"],
+    "href": "/templates/youtube-contents-plan",
+    "aiHint": "youtube creator",
+    "sections": [
+      { "id": "channel_concept", "title": "채널 컨셉 및 정체성", "content": "" },
+      { "id": "target_audience", "title": "타겟 시청자 분석", "content": "" },
+      { "id": "contents_strategy", "title": "핵심 콘텐츠 전략 및 카테고리", "content": "" },
+      { "id": "benchmarking", "title": "벤치마킹 채널 분석", "content": "" },
+      { "id": "upload_schedule", "title": "업로드 주기 및 제작 계획", "content": "" },
+      { "id": "promotion_strategy", "title": "채널 홍보 및 성장 전략", "content": "" },
+      { "id": "monetization", "title": "수익화 모델 및 계획", "content": "" },
+      { "id": "goals", "title": "단기 및 장기 목표 (구독자, 조회수)", "content": "" }
+    ]
+  },
+  {
+    "title": "개인 포트폴리오 계획서",
+    "slug": "personal-branding-plan",
+    "description": "프리랜서, 구직자를 위한 체계적인 퍼스널 브랜딩 전략 계획서입니다.",
+    "image": "https://picsum.photos/seed/portfolio/600/400",
+    "tags": ["포트폴리오", "브랜딩", "개인"],
+    "href": "/templates/personal-branding-plan",
+    "aiHint": "personal portfolio",
+    "sections": [
+      { "id": "vision_mission", "title": "나의 비전과 미션", "content": "" },
+      { "id": "swot_analysis", "title": "SWOT 분석 (강점, 약점, 기회, 위협)", "content": "" },
+      { "id": "target_audience", "title": "타겟 오디언스 (고객, 기업) 정의", "content": "" },
+      { "id": "unique_value", "title": "차별화된 가치 제안 (UVP)", "content": "" },
+      { "id": "online_presence", "title": "온라인 포트폴리오 및 SNS 운영 계획", "content": "" },
+      { "id": "contents_strategy", "title": "전문성을 보여줄 콘텐츠 전략", "content": "" },
+      { "id": "networking", "title": "네트워킹 및 협업 계획", "content": "" },
+      { "id": "action_plan", "title": "3개월 단기 실행 계획 및 목표", "content": "" }
+    ]
+  }
+]
+    

@@ -1,0 +1,53 @@
+{
+    "title": "AI 서비스/제품 사업 계획서",
+    "slug": "ai-service-business-plan",
+    "description": "AI 기술을 핵심으로 하는 서비스나 제품(챗봇, 이미지 분석, SaaS) 개발을 위한 전문 계획서입니다.",
+    "image": "https://picsum.photos/seed/ai-service/600/400",
+    "tags": ["AI", "기술창업", "SaaS"],
+    "href": "/templates/ai-service-business-plan",
+    "aiHint": "ai service robot",
+    "sections": [
+      { 
+        "id": "ai_model_tech", 
+        "title": "AI 모델 및 기술 개요", 
+        "content": "",
+        "placeholder": "[원천 AI 아키텍처 및 파인튜닝/RAG 설계]\n- 구현할 AI 핵심 모델 아키텍처(LLM, 컴퓨터 비전, 디퓨전 등)와 오픈소스/독점 모델 결합 구조를 기술하세요.\n- 타 모델 대비 당사 솔루션의 경량화 수준, 미세조정(Fine-Tuning), RAG(검색증강생성) 등 차별화된 알고리즘 우위를 설명해 주세요."
+      },
+      { 
+        "id": "data_strategy", 
+        "title": "데이터 확보 및 학습 전략", 
+        "content": "",
+        "placeholder": "[고유 데이터 수집 및 전처리 포트폴리오]\n- 모델 학습에 사용할 원천 데이터의 수집 채널, 합법적 라이센스 확보 방안, 노이즈 필터링 등 데이터 정제(Preprocessing) 전략을 기재하세요.\n- 경쟁사가 복제할 수 없는 '독점적 피드백 데이터 루프(Flywheel Effect)' 구축 방안을 서술해 주세요."
+      },
+      { 
+        "id": "service_architecture", 
+        "title": "서비스 아키텍처", 
+        "content": "",
+        "placeholder": "[클라우드 서버 아키텍처 및 AI 파이프라인]\n- 추론 속도 최적화, GPU/CPU 분산 연산, API Gateway, 벡터 데이터베이스 설계 등 고가용성 서비스 인프라 구성을 기재하세요.\n- 서비스 폭증 시 인프라 비용 통제를 위한 서버리스 오토스케일링 및 컨테이너 관리 방안을 기술해 주세요."
+      },
+      { 
+        "id": "ai_ethics", 
+        "title": "AI 윤리 및 규제 준수", 
+        "content": "",
+        "placeholder": "[개인정보보호 및 AI 편향성 필터링]\n- 사용자의 개인정보 필터링(비식별화 처리) 및 악의적 프롬프트 주입(Slid-loading/Prompt Injection) 방어 체계를 기재하세요.\n- 저작권 위반 리스크, 환각(Hallucination) 억제 필터 및 AI 알고리즘의 윤리적 편향 완화 방안을 서술하세요."
+      },
+      { 
+        "id": "metrics", 
+        "title": "핵심 지표(Metric) 및 성과 측정", 
+        "content": "",
+        "placeholder": "[AI 추론 품질 및 비즈니스 활성 지표]\n- AI 모델 성능을 객관적으로 입증할 벤치마크 점수(정확도, F1-Score, 추론 지연 시간 등)의 정량적 타겟 수치를 기술하세요.\n- 비즈니스 핵심 지표인 주간 활성 사용자(WAU), API 응답 시간, 유저 질문 대비 해결 비율 등의 트래킹 계획을 설계하세요."
+      },
+      { 
+        "id": "monetization", 
+        "title": "수익 모델 및 가격 정책", 
+        "content": "",
+        "placeholder": "[토큰/크레딧 요금 설계 및 엔터프라이즈 BM]\n- 호출당 사용료(Pay-as-you-go), 토큰/크레딧 정액 구독제, 또는 대기업 온프레미스(On-Premise) 구축비 등 세분화된 가격 패키지를 설계해 주세요.\n- GPU 인프라 가동비(COGS) 대비 최소 마진율 및 사용자 획득 단가 산출 방안을 기술해 주세요."
+      },
+      { 
+        "id": "team", 
+        "title": "핵심 연구 및 개발 인력", 
+        "content": "",
+        "placeholder": "[AI 사이언티스트 및 MLOps 엔지니어 이력]\n- AI 모델 학습을 전담할 석/박사 핵심 연구진의 논문 발표 실적(CVPR, NeurIPS 등) 및 MLOps 개발 인력의 상용화 엔진 구축 실적을 어필해 주세요."
+      }
+    ]
+}

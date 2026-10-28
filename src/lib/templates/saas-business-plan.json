@@ -1,0 +1,20 @@
+
+{
+    "title": "SaaS 비즈니스 플랜",
+    "slug": "saas-business-plan",
+    "description": "구독 기반 서비스(SaaS)에 특화된 사업 계획서입니다.",
+    "image": "https://picsum.photos/seed/saas/600/400",
+    "tags": ["SaaS", "소프트웨어", "구독"],
+    "href": "/templates/saas-business-plan",
+    "aiHint": "saas dashboard",
+    "sections": [
+      { "id": "summary", "title": "사업 요약", "content": "" },
+      { "id": "problem_solution", "title": "문제 정의 및 해결 방안", "content": "" },
+      { "id": "product", "title": "제품 상세 설명", "content": "" },
+      { "id": "market_analysis", "title": "목표 시장 분석", "content": "" },
+      { "id": "pricing_model", "title": "가격 및 구독 모델", "content": "" },
+      { "id": "customer_acquisition", "title": "고객 확보 전략", "content": "" },
+      { "id": "roadmap", "title": "제품 로드맵", "content": "" },
+      { "id": "financial_projections", "title": "재무 예측 (MRR, ARR, Churn)", "content": "" }
+    ]
+}

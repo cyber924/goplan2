@@ -1,0 +1,20 @@
+
+{
+    "title": "유튜브 채널 기획서",
+    "slug": "youtube-contents-plan",
+    "description": "1인 크리에이터와 콘텐츠 제작자를 위한 채널 성장 계획서입니다.",
+    "image": "https://picsum.photos/seed/youtube/600/400",
+    "tags": ["콘텐츠", "유튜브", "1인미디어"],
+    "href": "/templates/youtube-contents-plan",
+    "aiHint": "youtube creator",
+    "sections": [
+      { "id": "channel_concept", "title": "채널 컨셉 및 정체성", "content": "" },
+      { "id": "target_audience", "title": "타겟 시청자 분석", "content": "" },
+      { "id": "contents_strategy", "title": "핵심 콘텐츠 전략 및 카테고리", "content": "" },
+      { "id": "benchmarking", "title": "벤치마킹 채널 분석", "content": "" },
+      { "id": "upload_schedule", "title": "업로드 주기 및 제작 계획", "content": "" },
+      { "id": "promotion_strategy", "title": "채널 홍보 및 성장 전략", "content": "" },
+      { "id": "monetization", "title": "수익화 모델 및 계획", "content": "" },
+      { "id": "goals", "title": "단기 및 장기 목표 (구독자, 조회수)", "content": "" }
+    ]
+}

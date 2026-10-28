@@ -1,0 +1,20 @@
+
+{
+    "title": "모바일 앱/게임 개발 기획서",
+    "slug": "mobile-app-game-plan",
+    "description": "앱 스토어 출시를 목표로 하는 모바일 앱 또는 게임 개발 프로젝트 기획서입니다.",
+    "image": "https://picsum.photos/seed/mobile-app/600/400",
+    "tags": ["모바일앱", "게임", "IT"],
+    "href": "/templates/mobile-app-game-plan",
+    "aiHint": "mobile app game",
+    "sections": [
+      { "id": "app_overview", "title": "앱/게임 개요 및 컨셉", "content": "" },
+      { "id": "core_features", "title": "핵심 기능 및 콘텐츠 (Core Loop)", "content": "" },
+      { "id": "target_users", "title": "타겟 유저 및 시장 분석", "content": "" },
+      { "id": "ui_ux_strategy", "title": "UI/UX 디자인 전략", "content": "" },
+      { "id": "development_roadmap", "title": "개발 로드맵 및 기술 스택", "content": "" },
+      { "id": "monetization", "title": "수익화 모델 (인앱결제, 광고 등)", "content": "" },
+      { "id": "launch_marketing", "title": "출시 및 마케팅 계획 (ASO)", "content": "" },
+      { "id": "future_updates", "title": "향후 업데이트 및 운영 계획", "content": "" }
+    ]
+}

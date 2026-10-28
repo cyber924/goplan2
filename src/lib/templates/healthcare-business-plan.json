@@ -1,0 +1,19 @@
+
+{
+    "title": "헬스케어 / 웰니스 사업 계획서",
+    "slug": "healthcare-business-plan",
+    "description": "피트니스, 심리 상담, 웰빙 등 건강 및 웰니스 관련 사업을 위한 계획서입니다.",
+    "image": "https://picsum.photos/seed/healthcare/600/400",
+    "tags": ["헬스케어", "웰니스", "피트니스"],
+    "href": "/templates/healthcare-business-plan",
+    "aiHint": "wellness healthcare yoga",
+    "sections": [
+        { "id": "service_program", "title": "서비스 프로그램 소개", "content": "" },
+        { "id": "member_management", "title": "회원 확보 및 유지 전략", "content": "" },
+        { "id": "facility_plan", "title": "시설 및 장비 계획", "content": "" },
+        { "id": "professional_staff", "title": "전문 인력 구성 및 역할", "content": "" },
+        { "id": "legal_compliance", "title": "규제 및 법규 준수 사항", "content": "" },
+        { "id": "financial_plan", "title": "재무 계획 및 멤버십 가격", "content": "" },
+        { "id": "marketing", "title": "마케팅 및 파트너십 전략", "content": "" }
+    ]
+}

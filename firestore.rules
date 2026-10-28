@@ -1,0 +1,74 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // 관리자(cyber924@naver.com, sungbaep296@gmail.com) 여부를 확인하는 공통 함수
+    function isAdmin() {
+      return request.auth != null && (
+        request.auth.token.email == 'cyber924@naver.com' ||
+        request.auth.token.email == 'sungbaep296@gmail.com'
+      );
+    }
+
+    // [AI 추천 비즈니스 아이디어 라이브러리]
+    match /system_ideas/{ideaId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // [시스템 설정 및 모니터링 데이터]
+    match /system/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // [사용자 프로필 및 AI 사용량]
+    match /users/{userId} {
+      allow read, write: if request.auth != null && (
+        request.auth.uid == userId || isAdmin()
+      );
+    }
+
+    // [사업 계획서 및 보고서 문서]
+    match /documents/{docId} {
+      allow create: if request.auth != null && 
+                    request.resource.data.userId == request.auth.uid;
+      
+      allow read, update, delete: if request.auth != null && (
+        resource.data.userId == request.auth.uid || isAdmin()
+      );
+    }
+
+    // [공용 이미지 저장소 (DB 기반)]
+    match /public_images/{imageId} {
+      allow create: if request.auth != null;
+      allow read: if request.auth != null;
+      allow update, delete: if request.auth != null && (
+        resource.data.userId == request.auth.uid || isAdmin()
+      );
+    }
+
+    // [마켓 아이템 (공개 발행)]
+    match /market_items/{itemId} {
+      allow read: if true; // SEO 및 공개를 위해 누구나 읽기 허용
+      allow create: if request.auth != null && 
+                    request.resource.data.userId == request.auth.uid;
+      allow update, delete: if request.auth != null && (
+        resource.data.userId == request.auth.uid || isAdmin()
+      );
+    }
+
+    // [공지사항]
+    match /announcements/{announcementId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // [뉴스레터]
+    match /newsletters/{newsletterId} {
+      allow read, write: if isAdmin();
+    }
+  }
+}

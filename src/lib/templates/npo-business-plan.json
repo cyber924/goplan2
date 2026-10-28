@@ -1,0 +1,20 @@
+
+{
+    "title": "비영리 단체(NPO) 운영 계획서",
+    "slug": "npo-business-plan",
+    "description": "사회적 목표를 가진 비영리 단체 설립 및 후원/보조금 확보를 위한 계획서입니다.",
+    "image": "https://picsum.photos/seed/community/600/400",
+    "tags": ["NPO", "사회적기업", "기부"],
+    "href": "/templates/npo-business-plan",
+    "aiHint": "community volunteer",
+    "sections": [
+      { "id": "mission_vision", "title": "단체의 미션과 비전", "content": "" },
+      { "id": "social_problem", "title": "해결하고자 하는 사회 문제", "content": "" },
+      { "id": "main_projects", "title": "주요 사업 계획 및 내용", "content": "" },
+      { "id": "target_beneficiary", "title": "수혜 대상 및 규모", "content": "" },
+      { "id": "organization_structure", "title": "조직 구성 및 운영 계획", "content": "" },
+      { "id": "fundraising_plan", "title": "후원 및 재원 확보 방안", "content": "" },
+      { "id": "budget", "title": "예산 계획 및 재정 투명성", "content": "" },
+      { "id": "social_impact", "title": "기대효과 및 성과측정 지표", "content": "" }
+    ]
+}
